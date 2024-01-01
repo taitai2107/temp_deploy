@@ -2,12 +2,12 @@
   "name": "jwt_nodejs",
   "version": "1.0.0",
   "description": "",
-  "main": "sever.js",
+  "main": "index.js",
   "engines": {
     "node": "18.x"
   },
   "scripts": {
-    "start": "nodemon sever"
+    "start": "nodemon index"
   },
   "keywords": [],
   "author": "",
