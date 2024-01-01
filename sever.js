@@ -15,12 +15,9 @@ configCors(app);
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 useRouter(app);
-app.use("/", (req, res) => {
-  res.send("OK");
-});
-app.use((req, res) => {
-  res.json("router not found");
-});
+// app.use((req, res) => {
+//   res.json("router not found");
+// });
 app.listen(PORT, () => {
   console.log(`sever is running on PORT ${PORT}`);
 });
