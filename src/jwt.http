@@ -1,0 +1,13 @@
+POST  http://localhost:8080/api/v2/login
+{
+    "valueInput":"tainguye",
+    "password":"khong"
+}
+###
+POST http://localhost:8080/api/v2/getp
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzAzNjU0NTgzLCJleHAiOjE3MDM3NDA5ODN9.XIU5F6-ULoKW1YOgB-1S5N2isUYVT7Qx6u4zqtAQ-rk
+# POST  http://localhost:8080/api/v2/login
+# {
+#     "valueInput":"tainguye",
+#     "password":"khong"
+# }
