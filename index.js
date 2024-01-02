@@ -1,8 +1,12 @@
 const express = require("express");
+
 const app = express();
+
 const configCors = require("./src/config/CORS");
+
 require("express-async-errors");
 const useRouter = require("./src/router/index");
+
 require("dotenv").config();
 console.log("check 1");
 const PORT = process.env.PORT || 5000;

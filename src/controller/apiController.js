@@ -3,12 +3,13 @@ const tempdata = require("../temp/datafake");
 // const hashPassword = require("../service/userHashPassword");
 
 let getUser = async (req, res) => {
-  const [rows, fields] = await promisePool.query("select * from users");
+  const [rows, fields] = await promisePool.query("select * from user");
   let totalId = tinhtongID(rows);
   let temp = { rows };
+  console.log(rows);
   res.json(
     //temp.rows
-    temp.rows
+    rows
   );
 };
 let createUser = async (req, res) => {
